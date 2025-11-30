@@ -1,4 +1,4 @@
-// Peça a idade da pessoa em uma variável. Se for 18 ou mais, mostre "Pode comprar bebida alcoólica". Caso contrário, mostre "Venda proibida para menores de 18 anos".
+// Verifica se a idade informada é maior ou igual a 18 para permitir a compra de bebida alcoólica.
 
 
 const idade = 20;

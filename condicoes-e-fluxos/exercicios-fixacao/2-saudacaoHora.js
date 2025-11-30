@@ -1,4 +1,4 @@
-// Crie uma variável horaAtual. Se estiver entre 6 e 12, mostre "Bom dia"; entre 12 e 18, "Boa tarde"; caso contrário, "Boa noite".
+// Exibe uma saudação (Bom dia, Boa tarde, Boa noite) com base na hora atual.
 
 let horaAtual = 8;
 

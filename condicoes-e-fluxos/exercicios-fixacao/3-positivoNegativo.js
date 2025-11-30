@@ -1,4 +1,4 @@
-// Crie uma variável com um número qualquer. Mostre se ele é positivo, negativo ou igual a zero.
+// Função que verifica se um número é positivo, negativo ou zero.
 
 const positivo = 10;
 const negativo = -5;
