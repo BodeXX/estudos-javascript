@@ -1,9 +1,5 @@
 // Função que verifica se um número é positivo, negativo ou zero.
 
-const positivo = 10;
-const negativo = -5;
-const zero = 0;
-
 
 
 function verificacao(numero) {
@@ -16,6 +12,11 @@ function verificacao(numero) {
     }
 }
 
-verificacao(positivo);
-verificacao(negativo);
-verificacao(zero);
+// Teste com número positivo
+verificacao(10);
+
+// Teste com número negativo
+verificacao(-5);
+
+// Teste com zero
+verificacao(0);

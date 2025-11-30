@@ -1,9 +1,5 @@
 // Valida senha segura 6 caracteres ou mais
 
-let senhaInvalida = 'test';
-let senhaValida = 'valida';
-
-
 function validaSenha (senha) {
     if (senha.length >= 6) {
         console.log('Senha válida');
@@ -12,5 +8,8 @@ function validaSenha (senha) {
     }
 }
 
-validaSenha(senhaInvalida);
-validaSenha(senhaValida);
+// Teste com senha inválida (curta)
+validaSenha('test');
+
+// Teste com senha válida
+validaSenha('senhaforte');

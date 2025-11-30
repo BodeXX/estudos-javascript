@@ -1,9 +1,5 @@
 // Sistema de autorização de compras baseado em saldo.
 
-let valorCompra = 200.00;
-let saldoDisponivel = 250.00;
-let saldoIndisponivel = 150.00;
-
 
 function compra (saldo, valor) {
     if (saldo >= valor) {
@@ -13,6 +9,8 @@ function compra (saldo, valor) {
     }
 }
 
-// Executa a função com saldo disponivel e indisponivel.
-compra(saldoDisponivel, valorCompra);
-compra(saldoIndisponivel, valorCompra);
+// Teste com saldo suficiente (compra aprovada)
+compra(250.00, 200.00);
+
+// Teste com saldo insuficiente (compra recusada)
+compra(150.00, 200.00);

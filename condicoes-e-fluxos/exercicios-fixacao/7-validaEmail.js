@@ -1,9 +1,5 @@
 // Valida campo obrigatório
 
-let email = 'teste@';
-let emailVazio = '';
-
-
 function verificaCampo(email) {
     if (email.trim() === '') {
         console.log('Preencha o campo de e-mail.');
@@ -12,5 +8,8 @@ function verificaCampo(email) {
     }
 }
 
-verificaCampo(email);
-verificaCampo(emailVazio);
+// Teste com campo preenchido
+verificaCampo('teste@');
+
+// Teste com campo vazio
+verificaCampo('');

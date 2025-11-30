@@ -1,18 +1,17 @@
 // Verifica se a idade informada é maior ou igual a 18 para permitir a compra de bebida alcoólica.
 
+function verificaIdade(idade) {
+    // Simula uma interação de usuário
+    console.log(`Idade informada: ${idade}`);
+    const status = idade >= 18 ? 'Pode comprar bebida alcoólica.' : 'Venda proibída para menores de 18 anos.';
+    console.log(`Status: ${status}\n---`);
+}
 
-const idade = 20;
+// Teste com idade permitida
+verificaIdade(20);
 
+// Teste com idade não permitida
+verificaIdade(17);
 
-// Simulei uma interação de usuário
-console.log('Informe a idade: ');
-console.log(`Idade informada: ${idade}`)
-console.log('Processando idade informada... ');
-
-
-const verificaIdade = idade >= 18 ? 'Pode comprar bebida alcoólica' : 'Venda proibída para menores de 18 anos.';
-
-
-
-
-console.log(`Idade: ${idade} - Status: ${verificaIdade}`);
+// Teste de borda (idade igual a 18)
+verificaIdade(18);

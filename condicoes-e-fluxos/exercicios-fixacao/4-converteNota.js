@@ -1,14 +1,5 @@
 // Sistema de conversão de notas numéricas para conceitos (A-E).
 
-const notaA = 10;
-const notaB = 8;
-const notaC = 6;
-const notaD = 5.9;
-const notaE = 0;
-const notaInvalida = 11;
-
-
-
 function notaFinal(nota) {
     if (nota >= 9 && nota <= 10) {
         console.log(`Sua nota foi A com valor ${nota}`);
@@ -25,16 +16,15 @@ function notaFinal(nota) {
     }
 }
 
-notaFinal(notaA);
-notaFinal(notaB);
-notaFinal(notaC);
-notaFinal(notaD);
-notaFinal(notaE);
-notaFinal(notaInvalida);
-
+// Teste para nota A
 notaFinal(10);
+// Teste para nota B
 notaFinal(8.5);
+// Teste para nota C
 notaFinal(7);
+// Teste para nota D
 notaFinal(5.9);
+// Teste para nota E
 notaFinal(3.9);
+// Teste para nota inválida
 notaFinal(11);
