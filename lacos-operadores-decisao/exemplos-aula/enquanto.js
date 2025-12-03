@@ -1,0 +1,16 @@
+console.log('Utilizando laço while\n')
+
+// Executa um loop com While
+let contador = 1;
+while (contador <= 10) {
+    console.log(`Número atual: ${contador}\n`);
+    contador++
+}
+
+// Executa do/while, se a condição do while retorna false garante que rode pelo menos 1 vez
+console.log('Utilizando laço do/while\n')
+let numero = 1;
+do {
+    console.log(`Número atual: ${numero}`);
+    numero++
+} while (numero <= 10);
