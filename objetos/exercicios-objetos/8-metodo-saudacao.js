@@ -2,7 +2,9 @@
 
 const pessoa = {
     nome: 'Jonas',
-    saudacao: function() {
-    console.log(`Olá, eu sou ${this.nome}`);
+    saudacao: function () {
+        console.log(`Olá, eu sou ${this.nome}`);
+    }
 }
-}
+
+pessoa.saudacao();
