@@ -4,7 +4,7 @@
 // - Se for entre 15 e 30, exiba "Está agradável".
 // - Se for maior que 30, exiba "Está quente".
 
-const temperaturaFrio = 13; // variáveis de testes
+const temperaturaFrio = 13; // valores de testes
 const temperaturaAgradavel = 25;
 const temperaturaQuente = 35;
 
