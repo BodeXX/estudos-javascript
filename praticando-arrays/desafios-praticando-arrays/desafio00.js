@@ -1,4 +1,4 @@
-// Desafio Acessando e modificando elementos de um array
+// Desafio: Acessando e modificando elementos de um array
 
 // Deve criar um array com itens iniciais da lista de compras
 // Acesse e exiba o segundo item da lista.
